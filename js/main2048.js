@@ -287,7 +287,7 @@ function isGameOver(){
 }
 function gameOver(){
 	isGameOverFlag = true;
-	alert("老板说不给你涨了！\n换个公司重新来过吧！");
+	alert("哈哈哈，你已经为我们的爱情贡献了好多！😄");
 }
 
 function moveLeft(){
