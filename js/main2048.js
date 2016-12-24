@@ -1,6 +1,6 @@
 var board = new Array();
 var score = 0;//分数
-var currentPosition = 0;//当前职位
+var currentPosition = 0;//当前 爱情
 var hasConflicted = new Array();//冲突事件
 var isGameOverFlag = false;//是否结束
 var isMoving = false;//关闭操作
