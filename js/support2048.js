@@ -46,11 +46,11 @@ function getTextValue(number){
 		case 128: return "执子之手"; break;
 		case 256: return "红豆相思"; break;
 		case 512: return "比翼双飞"; break;
-		case 1024: return "醋海风波"; break;
+		case 1024: return "你侬我侬"; break;
 		case 2048: return "儿女情长"; break;
-		case 4096: return "醋海风波"; break;
-		case 8192: return "谈婚论嫁"; break;
-		case 16384: return "步入殿堂"; break;
+		case 4096: return "谈婚论嫁"; break;
+		case 8192: return "步入殿堂"; break;
+		case 16384: return "环游世界"; break;
 		case 16384: return "白头偕老"; break;
 		default: return "END";break;
 	}
