@@ -37,21 +37,21 @@ function getNumberBackgroundColor(number){
 
 function getTextValue(number){
 	switch(number){
-		case 2: return "小白"; break;
-		case 4: return "实习僧"; break;
-		case 8: return "码农"; break;
-		case 16: return "程序猿"; break;
-		case 32: return "攻城狮"; break;
-		case 64: return "项目经理"; break;
-		case 128: return "部门主管"; break;
-		case 256: return "经理秘书"; break;
-		case 512: return "总经理"; break;
-		case 1024: return "执行官"; break;
-		case 2048: return "董事长"; break;
-		case 4096: return "嘉诚女婿"; break;
-		case 8192: return "盖茨基友"; break;
-		case 16384: return "~神~"; break;
-		case 16384: return "~超神~"; break;
+		case 2: return "懵懂少女"; break;
+		case 4: return "情窦初开"; break;
+		case 8: return "意外邂逅"; break;
+		case 16: return "暧昧不清"; break;
+		case 32: return "如胶似漆"; break;
+		case 64: return "佳人才子"; break;
+		case 128: return "执子之手"; break;
+		case 256: return "红豆相思"; break;
+		case 512: return "比翼双飞"; break;
+		case 1024: return "醋海风波"; break;
+		case 2048: return "儿女情长"; break;
+		case 4096: return "醋海风波"; break;
+		case 8192: return "谈婚论嫁"; break;
+		case 16384: return "步入殿堂"; break;
+		case 16384: return "白头偕老"; break;
 		default: return "END";break;
 	}
 	return "black";
