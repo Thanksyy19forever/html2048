@@ -4,8 +4,8 @@
     //接收get请求的参数
 	$flag = $_GET['flag'];
 	$param = urlencode(urldecode($_GET['param']));
-    //判断
-	switch ($flag)
+    //判断／	
+/*switch ($flag)
     {
     case 1:
       $url='http://www.weather.com.cn/data/sk/'.$param.'.html';
@@ -23,7 +23,7 @@
     default:
         break;
     }
-
+    */
     //发送get请求
     try{
       $html = file_get_contents($url);
